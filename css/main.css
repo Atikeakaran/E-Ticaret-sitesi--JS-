@@ -3,7 +3,12 @@
 @import url(base.css);
 
 /*! layout  */
-@import url(/css/layout/header.css);
+@import url(layout/header.css);
 
 /*! components  */
-@import url(/css/components/modal-search.css);
+@import url(components/modal-search.css);
+@import url(components/slider.css);
+@import url(components/category-item.css);
+
+/*! Pages */
+@import url(pages/home.css);

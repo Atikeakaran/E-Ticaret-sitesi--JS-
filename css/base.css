@@ -7,6 +7,10 @@
     font-family: "Jost", sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 ul,
 ol {
     margin: 0;
@@ -99,11 +103,9 @@ input[type="number"]::-webkit-inner-spin-button {
     opacity: 1;
 }
 
-
-
-
-
-
+.img-fluid {
+    max-width: 100%;
+}
 
 @media (max-width: 1200px) {
     .container {
