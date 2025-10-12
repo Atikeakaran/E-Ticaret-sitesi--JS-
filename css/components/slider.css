@@ -86,19 +86,17 @@
     transition: .2s ease opacity;
 }
 
-.slider .slider-dots .slider-dot:hover {
-    opacity: 1;
-}
-
 .slider .slider-dots .slider-dot span {
     display: inline-block;
     width: 12px;
     height: 12px;
     background-color: #1367ef;
     border-radius: 100%;
-
 }
 
+.slider .slider-dots .slider-dot:hover {
+    opacity: 1;
+}
 
 @media(max-width: 768px) {
     .slider-item {

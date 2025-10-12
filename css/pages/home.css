@@ -27,3 +27,10 @@
     gap: 20px;
     flex-wrap: wrap;
 }
+
+.campaigns .campaigns-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
