@@ -22,7 +22,7 @@
     opacity: 0;
 }
 
-.products .product-item .img1:hover .img2 {
+.products .product-item .product-image:hover.img2 {
     visibility: visible;
     opacity: 1;
 }
