@@ -17,22 +17,22 @@
     transition: 0.3s ease-in-out all;
 }
 
-.products .product-item .img1:hover {
-    visibility: hidden;
-    opacity: 0;
-}
-
-.products .product-item .product-image:hover.img2 {
-    visibility: visible;
-    opacity: 1;
-}
-
 .products .product-item .img2 {
     display: flex;
     position: absolute;
     top: 0;
     opacity: 0;
     visibility: hidden;
+}
+
+.products .product-item .img1:hover {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.product-image:hover .img2 {
+    visibility: visible;
+    opacity: 1;
 }
 
 .products .product-item .product-title {
